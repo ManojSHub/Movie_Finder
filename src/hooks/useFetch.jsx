@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Options } from "../utils/options";
+import { options } from "../utils/options.jsx";
 
 function useFetch(api, queryTerm=""){
 
@@ -8,7 +8,7 @@ function useFetch(api, queryTerm=""){
     
     useEffect(()=>{
         async function fetchMovies(){
-            const response = await fetch(`https://api.themoviedb.org/3/${api}?query=${queryTerm}`, Options);
+            const response = await fetch(`https://api.themoviedb.org/3/${api}?query=${queryTerm}`, options);
 
             const data = await response.json();
 
