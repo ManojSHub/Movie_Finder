@@ -1,0 +1,35 @@
+
+const options = {
+  method: 'GET',
+  headers: {
+    accept: 'application/json',
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNzc5NTlhNTI4MDU0MmFmYmI1MjExZTdhZmExNjYxMiIsIm5iZiI6MTc0NDQ1NDYyNy44NCwic3ViIjoiNjdmYTQzZTNkNGM0NDRhMWNjOWEwOWE5Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.-Ek6-Da-n8_b8_1W_vHBXiHW4VPNtvSF5F2P6Eg3sAM'
+  }
+};
+
+
+
+
+now playing 
+'https://api.themoviedb.org/3/movie/now_playing?language=en-US&page=1'
+
+popular
+'https://api.themoviedb.org/3/movie/popular?language=en-US&page=1'
+
+top rated
+'https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=1'
+
+upcoming
+'https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=1'
+
+details
+'https://api.themoviedb.org/3/movie/{movie_id}?language=en-US'
+
+search
+'https://api.themoviedb.org/3/search/movie?query={movie_name}&include_adult=false&language=en-US&page=1'
+
+
+
+
+for adding image
+`https://image.tmdb.org/t/p/w500/`
