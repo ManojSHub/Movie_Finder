@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import { options } from "../utils/Options";
+import { options } from "../utils/options";
 import backUp from "../assets/backup.avif";
 
 
