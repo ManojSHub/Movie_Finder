@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom"
 import { options } from "../utils/options";
 import backUp from "../assets/backUp.avif";
 
-
 const MovieDetails = () => {
 
   const params = useParams();
