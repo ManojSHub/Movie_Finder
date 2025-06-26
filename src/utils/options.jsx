@@ -1,5 +1,5 @@
 // API key
-export const options = {
+export const Options = {
         method: 'GET',
         headers: {
           accept: 'application/json',
