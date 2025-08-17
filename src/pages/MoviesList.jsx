@@ -9,7 +9,7 @@ function MoviesList( { api, title } ) {
 
     useEffect(()=>{
         document.title = `${title}/Cinebite`;
-    });
+    },[]);
 
     return (
         <main>

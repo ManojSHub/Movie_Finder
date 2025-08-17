@@ -9,7 +9,7 @@ const MovieDetails = () => {
   const [data, setData] = useState({});
 
   const { id, original_title, overview, poster_path, genres,vote_average,vote_count} = data;
-  const image = poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : backUp;
+  const image = poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : backUP;
 
   useEffect(() => {
     document.title = `${original_title} / CineBite`;
